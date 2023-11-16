@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+.bridal-dress-gallery {
+    display: flex;
+    flex-wrap: wrap; 
+   
+   
+}
+
+.bridal-dress {
+
+    box-sizing: border-box;
+    flex: 33.33%;
+    padding: 5px;
+    
+    
+}
+
+.bridal-dress img {
+    max-width: 80%;
+    margin-right: 25%;
+}
+
+h2 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.center{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:50%;
+}
+.img-container{
+    text-align: center;
+}
